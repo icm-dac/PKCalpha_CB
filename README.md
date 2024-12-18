@@ -2,6 +2,9 @@
 
 <img src="/figures/pkca-junction-analysis-logo-centered.svg" width=300 alt="PKCα Junction Analysis Logo">
 
+## Status: Under Review for Publication
+This repository contains code that is currently under review for publication. Please read the LICENSE file carefully before using this code.
+
 ## Overview
 This pipeline is designed to analyze cellular junctions in microscopy images, particularly focusing on the detection and quantification of junctional proteins. The pipeline processes paired images (a protein-of-interest channel and an Alexa channel) to identify cell boundaries, detect junctions, and measure their properties.
 
@@ -105,6 +108,10 @@ execute_main(edge_count)  # edge_count determines the number of edges to analyze
 - Supports batch processing
 - Memory-efficient image handling
 - Configurable edge count for analysis
+
+## License
+This code is under a temporary license during the review period. See the LICENSE file for the full terms.
+
 
 ## Limitations
 - Requires specific file naming convention

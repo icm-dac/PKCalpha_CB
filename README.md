@@ -109,13 +109,12 @@ execute_main(edge_count)  # edge_count determines the number of edges to analyze
 - Memory-efficient image handling
 - Configurable edge count for analysis
 
-## License
-This code is under a temporary license during the review period. See the LICENSE file for the full terms.
-
-
 ## Limitations
 - Requires specific file naming convention
 - Paired images must be present
 - Memory usage scales with image size
 - Processing time depends on edge count
+
+## License
+This code is under a temporary license during the review period. See the LICENSE file for the full terms.
 

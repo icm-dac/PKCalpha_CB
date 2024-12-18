@@ -1,3 +1,6 @@
+# PKCα Junction Analysis
+<img src="/figures/pkca-junction-analysis-logo.png" width="200" alt="PKCα Junction Analysis Logo">
+
 # Cell Junction Analysis Pipeline
 
 ## Overview

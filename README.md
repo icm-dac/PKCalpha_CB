@@ -1,5 +1,4 @@
-# PKCα Junction Analysis
-<img src="/figures/pkca-junction-analysis-logo.png" alt="PKCα Junction Analysis Logo">
+<img src="/figures/pkca-junction-analysis-logo.png" width=500 alt="PKCα Junction Analysis Logo">
 
 ## Overview
 This pipeline is designed to analyze cellular junctions in microscopy images, particularly focusing on the detection and quantification of junctional proteins. The pipeline processes paired images (a protein-of-interest channel and an Alexa channel) to identify cell boundaries, detect junctions, and measure their properties.

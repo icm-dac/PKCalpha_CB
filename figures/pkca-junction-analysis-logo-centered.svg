@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="60 100 280 280">
+  <!-- White background for PNG conversion -->
+  <rect x="60" y="100" width="280" height="280" fill="white"/>
+  
+  <!-- Hexagonal cell pattern -->
+  <g stroke="#2c5282" stroke-width="3" fill="none">
+    <path d="M200,120 L260,150 L260,210 L200,240 L140,210 L140,150 Z" />
+    <path d="M260,150 L320,180 L320,240 L260,270 L200,240 L200,180 Z" />
+    <path d="M200,240 L260,270 L260,330 L200,360 L140,330 L140,270 Z" />
+    <path d="M140,210 L200,240 L200,300 L140,330 L80,300 L80,240 Z" />
+  </g>
+  
+  <!-- Junction points -->
+  <g fill="#e53e3e">
+    <circle cx="200" cy="240" r="8"/>
+    <circle cx="260" cy="270" r="8"/>
+    <circle cx="140" cy="270" r="8"/>
+    <circle cx="200" cy="180" r="8"/>
+  </g>
+  
+  <!-- Analysis elements -->
+  <g stroke="#38a169" stroke-width="2" stroke-dasharray="5,5">
+    <line x1="200" y1="240" x2="260" y2="270"/>
+    <line x1="200" y1="240" x2="140" y2="270"/>
+    <line x1="200" y1="240" x2="200" y2="180"/>
+  </g>
+  
+  <!-- Measurement indicator -->
+  <g transform="translate(260,270) rotate(30)">
+    <line x1="-15" y1="0" x2="15" y2="0" stroke="#4299e1" stroke-width="2"/>
+    <line x1="-10" y1="-5" x2="-10" y2="5" stroke="#4299e1" stroke-width="2"/>
+    <line x1="10" y1="-5" x2="10" y2="5" stroke="#4299e1" stroke-width="2"/>
+  </g>
+</svg>

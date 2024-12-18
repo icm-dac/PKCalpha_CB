@@ -14,7 +14,7 @@ This pipeline is designed to analyze cellular junctions in microscopy images, pa
 
 ## Dependencies
 ```python
-- OpenCV (cv2)
+- OpenCV
 - NumPy
 - Pandas
 - Matplotlib

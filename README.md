@@ -1,7 +1,7 @@
 # Cell Junction Analysis Pipeline
 
 ## Overview
-This Python-based image analysis pipeline is designed to analyze cellular junctions in microscopy images, particularly focusing on the detection and quantification of junctional proteins. The pipeline processes paired images (a protein-of-interest channel and an Alexa channel) to identify cell boundaries, detect junctions, and measure their properties.
+This pipeline is designed to analyze cellular junctions in microscopy images, particularly focusing on the detection and quantification of junctional proteins. The pipeline processes paired images (a protein-of-interest channel and an Alexa channel) to identify cell boundaries, detect junctions, and measure their properties.
 
 ## Features
 - Automated detection of cell boundaries and junctions
@@ -9,7 +9,7 @@ This Python-based image analysis pipeline is designed to analyze cellular juncti
 - Support for untransfected cell analysis
 - Honeycomb pattern enhancement
 - Edge detection and analysis
-- Intensity measurement and normalization
+- Intensity measurement and normalization using moving average
 - CSV output generation with detailed metrics
 
 ## Dependencies
@@ -77,7 +77,7 @@ images_output_dir = '/path_4'  # Processed images
 
 2. Run the main execution loop:
 ```python
-execute_main(edge_count)  # edge_count determines number of edges to analyze
+execute_main(edge_count)  # edge_count determines the number of edges to analyze
 ```
 
 ## Special Cases
@@ -110,9 +110,3 @@ execute_main(edge_count)  # edge_count determines number of edges to analyze
 - Memory usage scales with image size
 - Processing time depends on edge count
 
-## Contributing
-When contributing to this pipeline, please:
-- Maintain the existing error handling structure
-- Document any new functions thoroughly
-- Test with both standard and edge cases
-- Update the README with any new features

@@ -13,8 +13,8 @@ This code is currently under review for publication. During this review period:
 
 2. **Citation Requirements**
    - Any usage or reference to this code must cite it as:
-   - Paper Author: BELLAMY, Charlotte, [A Catalytically Inactive Protein Kinase C alpha Mutation Drives Chordoid Glioma by Pathway Rewiring], 2024, Code under review
-   - Code Written by: ARSLAN, Janan
+   - Paper Author: BELLAMY, Charlotte, 2024, Code under review
+   - Code Author: ARSLAN, Janan, 2024, Code under review
 
 3. **Review Period**
    - This license is temporary and will be replaced upon publication
